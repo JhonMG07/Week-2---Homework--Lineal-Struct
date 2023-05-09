@@ -1,0 +1,11 @@
+Ejercicio de simulación de cola en un supermercado: Escribe un programa que simule 
+el comportamiento de una cola de clientes en un supermercado. Los clientes llegan 
+al supermercado en intervalos aleatorios de tiempo, y cuando llega su turno en la cola, 
+realizan una compra que también toma un tiempo aleatorio. La cola debe ser implementada 
+utilizando una lista y la simulación debe hacerse utilizando el módulo time.
+
+Ejercicio de ordenamiento por mezcla utilizando colas: Escribe una función que implemente 
+el algoritmo de ordenamiento por mezcla utilizando dos colas. La función debe tomar una lista
+ de números desordenados, y dividirla en dos sub-listas de tamaño aproximadamente igual. Luego, 
+ debe ordenar cada sub-lista utilizando la misma función recursivamente, y finalmente mezclar 
+ las dos colas resultantes en una sola cola ordenada.

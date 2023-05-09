@@ -1,0 +1,15 @@
+Pilas:
+Ejercicio de verificación de paréntesis: Escribe una función que tome una cadena que contiene paréntesis, 
+corchetes y llaves, y verifique si los paréntesis están balanceados. Es decir, que cada paréntesis abierto 
+tenga su correspondiente paréntesis cerrado en el orden correcto. Utiliza una pila para llevar un seguimiento
+ de los paréntesis abiertos y cierra el último paréntesis abierto si se encuentra un paréntesis cerrado.
+
+Ejercicio de evaluación de expresiones posfijas: Escribe una función que tome una expresión posfija 
+(notación polaca inversa) y calcule su resultado utilizando una pila para almacenar los operandos. 
+Para evaluar la expresión, recorre cada elemento de la cadena y si es un operando lo apila en la pila, 
+si es un operador lo desapila junto con los dos operandos previos y aplica la operación correspondiente,
+ y apila el resultado de vuelta en la pila.
+
+Ejercicio de inversión de cadena: Escribe una función que tome una cadena y la invierta utilizando una 
+pila para almacenar los caracteres en orden inverso. Para ello, recorre cada caracter de la cadena y lo 
+apila en la pila, y luego desapila cada caracter para construir la cadena invertida.

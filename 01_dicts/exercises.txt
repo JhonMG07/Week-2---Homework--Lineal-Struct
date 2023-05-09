@@ -1,0 +1,10 @@
+Diccionarios:
+
+Ejercicio de conteo de palabras: Escribe un programa que lea un archivo de texto y cuente la cantidad de veces que aparece cada palabra en el archivo. 
+Luego, almacena los resultados en un diccionario y muestra los pares palabra-frecuencia en orden alfabético.
+
+Ejercicio de conversión de unidades: Escribe un programa que convierta una cantidad en una unidad de medida a otra unidad de medida utilizando un 
+diccionario para almacenar las relaciones de conversión.
+
+Ejercicio de registro de notas: Escribe un programa que permita registrar las notas de varios estudiantes y luego calcule el promedio de notas de 
+cada estudiante y el promedio general de la clase utilizando un diccionario para almacenar los datos.
