@@ -12,7 +12,7 @@ cola: list = []
 
 
 # Define la función para agregar clientes a la cola
-def agregar_cliente(cliente):
+def agregar_cliente(cliente: int):
     cola.append(cliente)
     print(f"Client {cliente} was add to the queue")
 

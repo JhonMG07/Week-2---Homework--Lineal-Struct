@@ -8,7 +8,7 @@ from queue import Queue
 # sublistas de tamaño 1 o 0, que ya se consideran ordenadas.
 
 
-def merge_sort_queue(arr):
+def merge_sort_queue(arr: list):
     # caso que solo sea un elemento
     if len(arr) <= 1:
         return arr
