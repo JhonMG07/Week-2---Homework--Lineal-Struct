@@ -25,7 +25,7 @@ def evaluar_expresion_posfija(expresion):
         print(f"Stack{stack}\n")
     return stack.pop()
 
-# landa no sirve cuando tenemos funciones simples lambda args: expresión
+# landa nos sirve cuando tenemos funciones simples lambda args: expresión
 
 expresion = "53+82-/"
 resultado = evaluar_expresion_posfija(expresion)
