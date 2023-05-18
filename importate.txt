@@ -1,0 +1,10 @@
+Pruebas:
+    No es tan caro
+    Te ahorra tiempo en un futuro
+    Y si haces TDD, ya no tendrias 
+    luego que dedicar mas tiempo en hacer 
+    las pruebas al final de todo, sino que 
+    tnto la prueba como la funcionlidad salen al mismo tiempo
+
+    Revisar las pruebas antes de hacer un proyecto
+    
