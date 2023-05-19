@@ -41,12 +41,11 @@ def merge_sort_queue(arr: list):
     while len(right) > 0:
         result.put(right.pop(0))
 
-    # Return the resulting queue as a list
     return list(result.queue)
 
 
 numeros: list = [9, 3, 1, 7, 2, 8, 5, 4, 6]
 print("Lista original:", numeros)
-
+.
 ordenados = merge_sort_queue(numeros)
 print("Lista ordenada:", ordenados)

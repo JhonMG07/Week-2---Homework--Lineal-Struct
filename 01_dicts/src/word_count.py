@@ -1,9 +1,6 @@
 # Read text and repeated word count
 from collections import defaultdict
 
-# funcion para leer el archivo y retornar una lista de las palabras
-
-
 def read_file_and_word_count(file_name: str) -> dict:
     if(not (file_name.endswith(".txt"))):
        return None
