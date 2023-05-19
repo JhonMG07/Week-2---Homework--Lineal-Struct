@@ -8,21 +8,19 @@ def read_file_and_word_count(file_name: str) -> dict:
     if(not (file_name.endswith(".txt"))):
        return None
         
-    # Creamos un diccionario vacio
+    
     word_count: dict = defaultdict(int)
-    # Creamos un archivo y abrimos el archivo
+    
     file = open(file_name, "r")
-    # Convertir todo a un mismo tipo
+    
     file = file.read().lower()
 
     words: list = file.split()
     print(f"Separadas: {words}")
 
-    # Creamos un bucle para leer cada linea del archivo
+    # create a bucle to read each line of the file
     for word in words:
         word_count[word] += 1
-
-    print(f"Palabra y frecuencia: {word_count.items()}")
 
     return word_count
 

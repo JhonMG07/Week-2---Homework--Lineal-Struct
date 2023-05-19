@@ -7,7 +7,7 @@ notas_dict: dict = {"Jhon": [10, 9.5, 8], "Maria": [9, 8, 7], "Pedro": [8, 7, 6]
 
 def get_average_for_each_student(notas_per_student: dict) -> dict:
 
-    for nombre, notas in notas_per_student.items():
+    for name, notas in notas_per_student.items():
         if any(isinstance(nota,str) for nota in notas):
             return None
         
@@ -15,8 +15,8 @@ def get_average_for_each_student(notas_per_student: dict) -> dict:
             return None
         
         avg_student: float = float(sum(notas) / 3)
-        print(f"Notas de {nombre}: {avg_student:.2f}")
-        names_avg[nombre] = round(avg_student,2)
+
+        names_avg[name] = round(avg_student,2)
 
     return names_avg
 
@@ -31,6 +31,8 @@ def get_average_of_the_whole_class(avg_per_student: dict) -> float:
     class_average=round(class_average,2)
     return class_average
 
+
+# 
 
 students_notes: dict = get_average_for_each_student(notas_dict)
 print(f"Students: {students_notes}")
