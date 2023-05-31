@@ -4,12 +4,8 @@ def reverse_string(string):
         stack.append(character)
 
     reversed_string: str = ""
-    while stack:  # mientras la pila esté llena
+    while stack:  # while the stack is not empty
         reversed_string += stack.pop()
 
     return reversed_string
 
-
-
-reverse_str: str = reverse_string("Hola mundo!")
-print(reverse_str) 

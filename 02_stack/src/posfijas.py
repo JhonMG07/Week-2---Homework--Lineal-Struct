@@ -1,5 +1,6 @@
 def evaluate_posfixed_expression(expression):
     stack = []
+    # lambda is used for simple functions lambda args: expression
     operators = {
         "+": lambda a, b: a + b,
         "-": lambda a, b: a - b,
@@ -18,10 +19,6 @@ def evaluate_posfixed_expression(expression):
     return stack.pop()
 
 
-# lambda is used for simple functions lambda args: expression
-
-result = evaluate_posfixed_expression("53+82-/")
-print(f"Reply: {result}")
 
 
 

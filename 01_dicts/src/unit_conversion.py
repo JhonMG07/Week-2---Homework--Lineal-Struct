@@ -11,5 +11,3 @@ def read_number_and_convert_to_destiantion_unit(
         return None
 
 
-result = read_number_and_convert_to_destiantion_unit(8, "km", "m")
-print(result)

@@ -26,8 +26,3 @@ def sort_alphabetically(dict_words:dict) -> list:
     return word_sorted
 
 
-word_counted: dict = read_file_and_word_count("./01_dicts/src/file.txt")
-
-word_sorted: list = sort_alphabetically(word_counted)
-
-print(f"la lista ordenada es: {word_sorted}")

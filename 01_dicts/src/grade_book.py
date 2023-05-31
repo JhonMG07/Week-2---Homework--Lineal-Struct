@@ -31,10 +31,3 @@ def get_average_of_the_whole_class(avg_per_student: dict) -> float:
     class_average=round(class_average,2)
     return class_average
 
-
-# 
-
-students_notes: dict = get_average_for_each_student(notas_dict)
-print(f"Students: {students_notes}")
-class_avg:float = get_average_of_the_whole_class(students_notes)
-print(f"\nThe average of the whole class is: {class_avg:.2f}")

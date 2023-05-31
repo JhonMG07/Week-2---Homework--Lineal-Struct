@@ -1,14 +1,7 @@
-# Merge Sort (also known as Merge Sort) is an efficient sorting algorithm that divides an unordered list into two equal (or approximately equal) sublists.
-# sorting algorithm that splits an unordered list into two sublists of equal (or approximately equal) size,
-# recursively sorts them and then mixes them to obtain a complete sorted list.
-
-# The main idea behind the algorithm is to repeatedly split the list into halves until there are # sublists of size 1 or # equal size.
-# sublists of size 1 or 0, which are already considered sorted.
 
 from queue import Queue
 
 def merge_sort_queue(arr: list):
-    # caso que solo sea un elemento
     if len(arr) <= 1:
         return arr
     
@@ -19,7 +12,8 @@ def merge_sort_queue(arr: list):
     mid: int = len(arr) // 2
     left_list = arr[:mid]
     right_list= arr[mid:]
-
+    
+    
     # Recursively sort each sub-list
 
     left = merge_sort_queue(left_list)
@@ -42,10 +36,3 @@ def merge_sort_queue(arr: list):
         result.put(right.pop(0))
 
     return list(result.queue)
-
-
-numeros: list = [9, 3, 1, 7, 2, 8, 5, 4, 6]
-print("Lista original:", numeros)
-.
-ordenados = merge_sort_queue(numeros)
-print("Lista ordenada:", ordenados)

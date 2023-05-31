@@ -25,19 +25,3 @@ def verify_parentheses(parenthesis: str):
 
     return not stack
 
-
-res: bool = verify_parentheses("[{()}]")
-
-if res:
-    print("Yes")
-else:
-    print("No")
-
-print("\n----\n")
-
-res = verify_parentheses("[{({}}]")
-
-if res:
-    print("Yes")
-else:
-    print("No")
